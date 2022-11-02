@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import HOC from "./HOC";
 
 const Hooks = () => {
@@ -11,7 +11,6 @@ const Hooks = () => {
         name: 'alex',
         age: 25
     });
-
 
     const [arr, setArr] = useState([90, 89, 100]);
 
